@@ -313,10 +313,10 @@ Both interface and type aliases can be used to define the shape of objects and f
 ```markdown
 | Feature                  |Interface                                     | Type Alias |
 |--------------------------|----------------------------------------------|--------------------------------------------|
-| Declaration              | `interface MyInterface { ... }`              | `type MyType = { ..` |
+| Declaration              | `interface MyInterface { ... }`              | `type MyType = { ..`                       |
 | Extensibility            | Can be extended by other interfaces/classes  | Can extend other types (`&`) but cannot be |
-|                          | (`extends`) and can be reopened to add new   | reopened.
-|                          | properties later (declaration merging). |    |                                            |
+|                          | (`extends`) and can be reopened to add new   | reopened.                                  |
+|                          | properties later (declaration merging).      |                                            |
 |--------------------------|----------------------------------------------|--------------------------------------------|
 | Primitives/Unions/Tuples | Cannot define primitive types, union types,  | Can define any type, including primitives, |
 |                          | or tuples directly.                          | unions, tuples, and complex object shapes. |
