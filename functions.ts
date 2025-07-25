@@ -46,6 +46,11 @@ function greetWithCallback(name: string, callback: (message: string) => void): v
     const message = `Hello, ${name}!`;
     callback(message);
 }
+// function can return objects as well
+function createUsers(name: string, age: number): { name: string; age: number } {
+    return { name, age };
+}
+// 
 
 // Example usage
 console.log(greet("Alice"));
