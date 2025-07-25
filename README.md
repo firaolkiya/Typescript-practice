@@ -325,7 +325,7 @@ Both interface and type aliases can be used to define the shape of objects and f
 |                          |                                              | directly (though they can implement the    |
 |                          |                                              | shape defined by a type alias).            |
 |--------------------------|----------------------------------------------|--------------------------------------------|
-
+```
 In modern TypeScript, type aliases are generally more flexible as they can represent any type, while interface is often preferred for defining object shapes, especially when declaration merging or traditional object-oriented implements behavior is desired.
 
 ## How to Setup TypeScript for Real Projects
