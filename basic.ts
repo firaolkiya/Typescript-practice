@@ -12,21 +12,6 @@ type User = {
 };
 
 
-type CardNumber = string & { readonly brand: "Visa" | "MasterCard" | "Amex",
-    cardnumber: string & { readonly length: 16 | 19 }
-
-};
-type CardDate = string & { readonly format: "MM/YY" | "MM/YYYY" };
-type CardDetails = CardNumber & CardDate & {
-    cvv: string & { readonly length: 3 | 4 }
-};
-
-let myCard: CardDetails = {
-    cardnumber: "1234567812345678" ,
-    brand: "Visa",
-    format: "MM/YY",
-    cvv: "123"
-} as CardDetails;
 
 console.log("Hello, World!");
 // arryay, let myarray: number[] = [1, 2, 3, 4, 5];
