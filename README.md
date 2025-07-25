@@ -353,7 +353,7 @@ Members are accessible from anywhere, both inside and outside the class. If no m
 ### private: 
 Members are only accessible from within the class where they are defined. They cannot be accessed or modified from instances of the class or from derived classes.
 
-````TypeScript
+```TypeScript
 
 class Car {
     public brand: string;
